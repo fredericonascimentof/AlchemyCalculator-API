@@ -1,4 +1,0 @@
-﻿# AlchemyCalculator-API
-
-
-
