@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlchemyCalculator", "AlchemyCalculator\AlchemyCalculator.csproj", "{D8563639-9B22-4DB9-83C7-299468ABF5F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4715FE75-CEC5-458C-A7C4-D7E1417E2125} = {4715FE75-CEC5-458C-A7C4-D7E1417E2125}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{1CB8FBAB-73EB-4D36-BC79-DBDF8CC9C237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlchemyCalculator.Dominio", "AlchemyCalculator.Dominio", "{5D59A017-9CAE-4720-A873-54131D86586B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{14A9456F-C03D-4F34-B438-FFC282D35B3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{FB8E9578-B687-48EE-B0EA-F6A924AC213D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlchemyCalculator.Repositorio", "AlchemyCalculator.Repositorio\AlchemyCalculator.Repositorio.csproj", "{3B19E764-82B3-4EBE-9AE0-F0580B05F283}"
+	ProjectSection(ProjectDependencies) = postProject
+		{616626A6-B048-42BE-8128-8ACEB138D713} = {616626A6-B048-42BE-8128-8ACEB138D713}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlchemyCalculator.Dominio", "AlchemyCalculator.Dominio\AlchemyCalculator.Dominio.csproj", "{79EDE325-107C-46D9-9876-9C48AD205829}"
+	ProjectSection(ProjectDependencies) = postProject
+		{616626A6-B048-42BE-8128-8ACEB138D713} = {616626A6-B048-42BE-8128-8ACEB138D713}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlchemyCalculator.Interfaces", "AlchemyCalculator.Interfaces\AlchemyCalculator.Interfaces.csproj", "{616626A6-B048-42BE-8128-8ACEB138D713}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED76410D-82D5-4238-AE2B-F6A20995D050} = {ED76410D-82D5-4238-AE2B-F6A20995D050}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlchemyCalculator.IoC", "AlchemyCalculator.IoC\AlchemyCalculator.IoC.csproj", "{4715FE75-CEC5-458C-A7C4-D7E1417E2125}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B19E764-82B3-4EBE-9AE0-F0580B05F283} = {3B19E764-82B3-4EBE-9AE0-F0580B05F283}
+		{616626A6-B048-42BE-8128-8ACEB138D713} = {616626A6-B048-42BE-8128-8ACEB138D713}
+		{79EDE325-107C-46D9-9876-9C48AD205829} = {79EDE325-107C-46D9-9876-9C48AD205829}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlchemyCalculator.Models", "AlchemyCalculator.Models\AlchemyCalculator.Models.csproj", "{ED76410D-82D5-4238-AE2B-F6A20995D050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8563639-9B22-4DB9-83C7-299468ABF5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8563639-9B22-4DB9-83C7-299468ABF5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8563639-9B22-4DB9-83C7-299468ABF5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8563639-9B22-4DB9-83C7-299468ABF5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B19E764-82B3-4EBE-9AE0-F0580B05F283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B19E764-82B3-4EBE-9AE0-F0580B05F283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B19E764-82B3-4EBE-9AE0-F0580B05F283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B19E764-82B3-4EBE-9AE0-F0580B05F283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EDE325-107C-46D9-9876-9C48AD205829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EDE325-107C-46D9-9876-9C48AD205829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EDE325-107C-46D9-9876-9C48AD205829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EDE325-107C-46D9-9876-9C48AD205829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616626A6-B048-42BE-8128-8ACEB138D713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616626A6-B048-42BE-8128-8ACEB138D713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616626A6-B048-42BE-8128-8ACEB138D713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616626A6-B048-42BE-8128-8ACEB138D713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4715FE75-CEC5-458C-A7C4-D7E1417E2125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4715FE75-CEC5-458C-A7C4-D7E1417E2125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4715FE75-CEC5-458C-A7C4-D7E1417E2125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4715FE75-CEC5-458C-A7C4-D7E1417E2125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED76410D-82D5-4238-AE2B-F6A20995D050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED76410D-82D5-4238-AE2B-F6A20995D050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED76410D-82D5-4238-AE2B-F6A20995D050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED76410D-82D5-4238-AE2B-F6A20995D050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8563639-9B22-4DB9-83C7-299468ABF5F4} = {1CB8FBAB-73EB-4D36-BC79-DBDF8CC9C237}
+		{3B19E764-82B3-4EBE-9AE0-F0580B05F283} = {FB8E9578-B687-48EE-B0EA-F6A924AC213D}
+		{79EDE325-107C-46D9-9876-9C48AD205829} = {5D59A017-9CAE-4720-A873-54131D86586B}
+		{616626A6-B048-42BE-8128-8ACEB138D713} = {14A9456F-C03D-4F34-B438-FFC282D35B3D}
+		{4715FE75-CEC5-458C-A7C4-D7E1417E2125} = {14A9456F-C03D-4F34-B438-FFC282D35B3D}
+		{ED76410D-82D5-4238-AE2B-F6A20995D050} = {14A9456F-C03D-4F34-B438-FFC282D35B3D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96ABDEB-087A-4E97-BD0C-D5B0078E3A66}
+	EndGlobalSection
+EndGlobal
+
